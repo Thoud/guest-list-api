@@ -1,0 +1,6 @@
+{
+  "name": "Express REST Guest List API (in-memory)",
+  "description": "A simple, naïve, in-memory RESTful guest list API in Express",
+  "repository": "https://github.com/Thoud/express-guest-list-api",
+  "keywords": ["express", "rest", "guestlist", "api"]
+}
