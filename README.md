@@ -1,10 +1,15 @@
 # Express REST Guest List API (in-memory)
 
-A simple, naïve, in-memory RESTful guest list API in Express.
+> A simple, naïve, in-memory RESTful guest list API in Express.
 
-## Installation
+## Dependencies
 
-```terminal
+- [Express](https://expressjs.com/)
+- [Typescript](https://www.typescriptlang.org/)
+
+## Setup
+
+```sh
 git clone https://github.com/Thoud/express-guest-list-api
 cd express-guest-list-api
 yarn
@@ -79,7 +84,7 @@ const response = await fetch(`${baseUrl}/1`, { method: 'DELETE' });
 const deletedGuest = await response.json();
 ```
 
-## Deploying to Heroku
+## Deployment
 
 Create a Heroku account at [Heroku - Sign up](https://signup.heroku.com/),
 and then use this repository to deploy the express app.
